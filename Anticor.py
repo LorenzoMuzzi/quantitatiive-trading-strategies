@@ -10,8 +10,7 @@ MAX_W = 30
 
 MAX_GROSS_LEVERAGE = 2.0 # per evitare che la leva diventi esageratamente grande e falsi la strategia (sotto un profilo di realisticità e applicazione)
 
-df_names = ["#DJI30_20150101_20260519.xlsx", "#NDX100_20150101_20260519.xlsx", "#SP500_20150101_20260519.xlsx"]
-
+df_names = ["DJI30_sample.xlsx"]
 
 def apply_gross_leverage_cap(weights: np.ndarray, max_gross_leverage: float | None) -> np.ndarray:
     if max_gross_leverage is None:
