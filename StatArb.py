@@ -6,8 +6,8 @@ import matplotlib.dates as mdates
 
 from matplotlib.backends.backend_pdf import PdfPages
 
-df_names = ["#DJI30_20150101_20260519.xlsx", "#NDX100_20150101_20260519.xlsx", "#SP500_20150101_20260519.xlsx"]
-df_titles = ["Dow Jones Industrial Average", "Nasdaq 100", "S&P 500"]
+df_names = ["DJI30_sample.xlsx"]
+df_titles = ["Dow Jones Industrial Average"]
 graph_titles = ["", "No transaction costs", "Transaction costs"]
 
 graphs = {}
