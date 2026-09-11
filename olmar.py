@@ -10,7 +10,7 @@ MAX_W = 30
 MIN_W = 3
 w_values = np.arange(MIN_W, MAX_W + 1)
 
-df_names = ["#DJI30_20150101_20260519.xlsx", "#NDX100_20150101_20260519.xlsx", "#SP500_20150101_20260519.xlsx"]
+df_names = ["DJI30_sample.xlsx"]
 
 # FUNZIONI PER CALCOLI
 def predict_price_relatives(w: int, t: int, prices:np.ndarray, active: np.ndarray) -> np.ndarray:
